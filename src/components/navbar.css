@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    color: rgb(25, 88, 88);
+}
+
+.navbarbox{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.697);
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.button{
+  padding:1.5rem 0px;
+  white-space: nowrap;
+  text-decoration: none;
+  color: black;
+}
+.button:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.navitems{
+    display: flex;
+    list-style: none;
+}
+.navmenu{
+    padding: 10px 15px;
+    
+}
+.navmenu a{
+    padding: 6px;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+}
+
+
+.navmenu a:hover{
+    color: white;
+    background-color: grey;
+}
+
+.hamburger{
+    display:none;
+}
+
+
+
+@media screen and (max-width:850px){
+
+    .hamburger{
+        display: flex;
+    }
+    
+    /* hiding navbar menu items  */
+    .navitems{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height:auto;
+        /* background-color: aqua; */
+        top: 0px;
+        left: 0px;
+        margin: 0px;
+        padding: 90px 10px;
+        z-index: -1;
+
+    }
+
+    .navitems.active{
+display: flex;
+    }
+    
+}

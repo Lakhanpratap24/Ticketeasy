@@ -2,6 +2,8 @@
 
 #### Ticket Easy is a project aimed at revolutionizing the visitor experience at monuments and heritage places in Jodhpur by introducing a ticketless entry system. The project leverages modern technology to streamline the entry process, making it convenient and hassle-free for both visitors and administrators.
 
+<img width="637" height="548" alt="Image" src="https://github.com/user-attachments/assets/4b717682-06e1-4a11-adf5-9792bbbef8dc" />
+
 ### Key Features:
 1. **Ticketless Entry System**: Say goodbye to physical tickets and long queues. Ticket Easy allows visitors to enter monuments and heritage places without the need for traditional paper tickets.
    
